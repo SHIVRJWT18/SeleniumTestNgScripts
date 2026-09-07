@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name = "valA" value = "30" />
+  <parameter name = "valB" value = "80" />
+  <test name="MyTest">
+    <classes>
+      <class name="TestNGParameters.ParametersAtSuitelevel"/>
+     </classes>
+  </test> 
+  </suite> 
