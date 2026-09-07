@@ -1,0 +1,9 @@
+ <suite name ="After Suite"> <!-- Suite --> 
+    <test thread-count="5" name="Smoke Test">
+    <classes>
+      <class name="AnnotationFlow.BeforeAfterMethodDemo"/>
+      <class name="AnnotationFlow.BeforeAfterClassDemo"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

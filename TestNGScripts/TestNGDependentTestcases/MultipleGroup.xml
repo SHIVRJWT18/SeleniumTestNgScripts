@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+  <test name = "MyTest">
+     <groups>
+     <dependencies>
+     <group depends-on = "LaunchApp" name = "SignIn"></group>
+     <group depends-on = "SignIn" name = "SignOut"></group>
+     </dependencies>
+     </groups>
+     <classes>
+      <class name="TestNGDependentTestcases.DependsonMultipleGroup"/>
+     </classes>
+  </test> 
+  </suite> 
